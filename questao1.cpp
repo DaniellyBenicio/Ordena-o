@@ -34,7 +34,7 @@ void mostrar_vetor(int num[], int tam){
 
 void insertion_sort(int num[], int tam){
 	int j, aux;
-	for(int i=0; i<tam; i++){
+	for(int i=1; i<tam; i++){
 		j = i;
 		while((j!= 0) && (num[j]<num[j-1])){      	//compara o elemento na posição j com o anterior (j - 1) e faz as trocas necessárias.
 			aux = num[j];
